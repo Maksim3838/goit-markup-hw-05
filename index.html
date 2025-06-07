@@ -446,9 +446,28 @@
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use> </svg> </button>
           <p class="model-title">Leave your contacts and we will call you back</p>
           <form class="modal-form">
-            <input type="text"class="model-input"/>
-            <input type="text"class="model-input"/>
-            <input type="text"class="model-input"/>
+            <div class="modal-form-van">
+              <label for="uzer-name" 
+              class="uzer-name-text">Name</label>
+            <input type="text"
+            class="model-input" 
+            name="uzer-name"
+            id="uzer-name"/>
+            </div>
+            <div class="phone-text-two"><label for="phone" class="phone-text">Phone</label>
+            <input type="number"
+            class="model-input"
+             name="phone"
+             id="phone"/>
+            </div>
+          
+            <div class="email-text-fre"> <label for="email" class="email-text">Email</label>
+            <input type="email"
+            class="model-input"
+             name="email"
+             id="email"/>
+            </div>
+            
             <button type="submit">Send</button>
           </form>
       </div>

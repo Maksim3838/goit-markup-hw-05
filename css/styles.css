@@ -608,13 +608,51 @@ border-radius: 4px;
 width: 360px;
 height: 40px;
 background-color: transparent ;
+margin-bottom: 8px;
+
+}
+
+.uzer-name-text {
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: inline-block;
+margin-bottom: 4px;
+
+
+}
+
+.phone-text {
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: inline-block;
+margin-bottom: 4px;
 }
 
 
+.email-text {
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: inline-block;
+margin-bottom: 4px;
+}
+
+.modal-form-van {
 
 
+}
+
+.phone-text-two{
 
 
+}
+
+.email-text-fre {
+
+  
+}
 
 
 
