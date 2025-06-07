@@ -609,8 +609,14 @@ width: 360px;
 height: 40px;
 background-color: transparent ;
 padding-left: 38px;
+outline: transparent;
+}
 
-
+.model-input:focus {
+  border-color: #4d5ae5;
+}
+.model-input:focus+.modal-svg-van {
+fill: #4d5ae5;
 }
 
 .uzer-name-text {
@@ -646,6 +652,7 @@ margin-bottom: 4px;
 margin-bottom: 8px;
 
 
+
 }
 
 .phone-text-two {
@@ -659,17 +666,22 @@ margin-bottom: 8px;
 }
 
 .modal-svg-van{
-fill: #4d5ae5;
 position: absolute;
 left: 16px;
+top: 50%;
+transform: translateY(-50%);
 }
 .modal-svg-two {
 position: absolute;
 left: 16px;
+top: 50%;
+transform: translateY(-50%);
 }
 .modal-svg-fre {
 position: absolute;
 left: 16px;
+top: 50%;
+transform: translateY(-50%);
 }
 
 .modal-uzer-name{
@@ -683,9 +695,28 @@ position: relative;
 
 }
 
+.but {
+  display: block;
+  margin: 0 auto;
+}
 
+.modal-textarea {
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 360px;
+height: 138px;
+background-color: transparent ;
+outline: transparent;
+resize: none;
+padding-top: 8px;
+padding-left: 16px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
 
-
+}
 
 
 
