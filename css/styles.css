@@ -559,7 +559,7 @@ margin-bottom: 16px;
 
                   /* /////------////// */
 
-   .backdrop open {
+   .backdrop {
 width: 100%;
 height: 100%;
 background-color: rgba(46, 47, 66, 0.4);
@@ -589,6 +589,7 @@ padding-top: 72px;
 padding-right: 24px;
 padding-bottom: 24px;
 padding-left: 24px;
+
  
  
    }  
