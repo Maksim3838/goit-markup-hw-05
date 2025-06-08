@@ -701,8 +701,24 @@ fill: #2e2f42;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+}
 
-.phone-text {
+.modal-textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-field.textarea {
+  margin-bottom: 16px;
+}
+
+/* .phone-text {
 line-height: 1.16667;
 letter-spacing: 0.04em;
 color: #8e8f99;
@@ -784,7 +800,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
-}
+} */
 
 .check-text {
 font-weight: 400;
