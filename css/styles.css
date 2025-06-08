@@ -633,6 +633,10 @@ fill: #fff;
 
 }
 
+.modal-user-name{
+   position: relative;
+}
+
  .model-title{
  font-family: "Roboto", sans-serif;
   font-weight: 500;
