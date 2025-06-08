@@ -726,6 +726,9 @@ left: 16px;
 top: 50%;
 transform: translateY(-50%);
 }
+.comment-text-for {
+  margin-bottom: 16px ;
+}
 
 .modal-user-name{
   position: relative;
