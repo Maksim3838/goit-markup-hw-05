@@ -718,6 +718,80 @@ fill: #2e2f42;
   margin-bottom: 16px;
 }
 
+
+.modal-field.checkbox {
+  margin-bottom: 24px;
+}
+
+.modal-input-cover {
+  position: relative;
+}
+
+.check-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.17;
+}
+
+.check-element {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-check:checked + .check-text .check-element {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.privacy-link {
+  color: #4d5ae5;
+}
+
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #404bbf;
+}
+
 /* .phone-text {
 line-height: 1.16667;
 letter-spacing: 0.04em;
@@ -802,7 +876,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 } */
 
-.check-text {
+/* .check-text {
 font-weight: 400;
 font-size: 12px;
 letter-spacing: 0.04em;
@@ -827,7 +901,7 @@ fill: transparent;
 border-color: #31d0aa;
 border: none;
 fill: #f4f4fd;
-}
+} */
 
 .footer-subscribe {
   margin-left: 80px;
