@@ -652,12 +652,13 @@ outline: transparent;
 fill: #4d5ae5;
 }
 
-.uzer-name-text {
+.user-name-text {
 line-height: 1.16667;
 letter-spacing: 0.04em;
 color: #8e8f99;
 display: inline-block;
 margin-bottom: 4px;
+
 
 
 
@@ -717,7 +718,7 @@ top: 50%;
 transform: translateY(-50%);
 }
 
-.modal-uzer-name{
+.modal-user-name{
   position: relative;
 }
 .modai-phone-text{
