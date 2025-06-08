@@ -607,7 +607,7 @@ visibility: visible;
   background-color: #e7e9fc;
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
-
+cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
