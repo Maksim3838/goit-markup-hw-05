@@ -509,29 +509,34 @@
             </div>
           
             
-            <div class="comment-text-for"> 
-              <label for="user-comment" 
-              class="user-name-text">Comment</label>
-                <textarea class="modal-textarea" 
-                name="user-comment"  id="user-comment"
-                rows="7" 
-                placeholder="Text input"></textarea>
-          
-          <div class="modal-field">
-            <input 
-            type="checkbox"
-            id="policy"
-            class="modal-check" 
-            value="true" 
-            name="policy"/>
-            <label for="policy" class="check-text">
-              <span class="check-element">
-              <svg class="check-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-Vector"></use> </svg></span> I accept the terms and conditions of the <a class="Privacy-link" href="">Privacy Policy</a></label>
-        
-        </div>
-            
-            <button type="submit"class="but">Send</button>
+            <div class="modal-field textarea">
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field checkbox">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="check-text"
+              ><span class="check-element">
+                <svg class="icon-vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="privacy-link" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-btn" type="submit">Send</button>
           </form>
       </div>
     </div>
