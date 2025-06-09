@@ -665,7 +665,7 @@ fill: #fff;
 
 }
 
-.model-input:focus {
+.modal-input:focus {
  border-color: #4D5AE5;
 }
 .modal-input:focus + .modal-svg-van {
