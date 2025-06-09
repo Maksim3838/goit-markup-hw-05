@@ -668,9 +668,13 @@ fill: #fff;
 .model-input:focus {
  border-color: #4D5AE5;
 }
-.modal-input:focus + .modal-svg-van {
+/* .modal-input:focus + .modal-svg-van {
+  fill: #4d5ae5;
+} */
+.modal-input:focus{
   fill: #4d5ae5;
 }
+
 .modal-form-van {
   margin-bottom: 8px;
 }
