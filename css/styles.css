@@ -665,13 +665,13 @@ fill: #fff;
 
 }
 
-.model-input:focus {
+.modal-input:focus {
  border-color: #4D5AE5;
 }
-.model-input:focus + .modal-svg-van {
+.modal-input:focus + .modal-svg-van {
   fill: #4d5ae5;
 }
-.model-input:focus{
+.modal-input:focus{
   fill: #4d5ae5;
 }
 
