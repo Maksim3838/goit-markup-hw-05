@@ -639,7 +639,7 @@ fill: #fff;
    position: relative;
 }
 
-.modal-svg-van .model-input:focus {
+ .model-input .modal-svg-van:focus {
 fill: #4D5AE5;
 
 } 
