@@ -773,6 +773,20 @@ fill: #2e2f42;
   color: #4d5ae5;
 }
 
+:root {
+  --accent-color: #404bbf;
+  --icon-fill-color: #F4F4FD;
+}
+
+.modal-check:checked + label .check-element {
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.modal-check:checked + label .check-element svg {
+  fill: var(--icon-fill-color);
+}
+
 .modal-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
