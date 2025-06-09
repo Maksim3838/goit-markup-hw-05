@@ -574,7 +574,7 @@ margin-bottom: 16px;
   }   
   .is-open {
     opacity: 1;
-pointer-events: avto;
+pointer-events: auto;
 visibility: visible;
   }
    
