@@ -780,12 +780,13 @@ fill: #2e2f42;
 :root {
   --accent-color: #404bbf;
   --icon-fill-color: #F4F4FD;
+  focus-icon-color: #4D5AE5;
 }
 
 .modal-check:checked + label .check-element {
   background-color: var(--accent-color);
   border: none;
-   fill:#F4F4FD;
+  
 }
 
 .modal-check:checked + label .check-element svg {
