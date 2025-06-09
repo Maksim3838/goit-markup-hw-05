@@ -608,6 +608,11 @@ visibility: visible;
   border: none;
 }
 
+.modal-button:hover .modal-button-icon,
+.modal-button:focus .modal-button-icon {
+fill: #fff;
+}
+
  .modal-button {
   position: absolute;
   top: 24px;
@@ -629,11 +634,7 @@ cursor: pointer;
 
  
 
-.modal-button:hover .modal-button-icon,
-.modal-button:focus .modal-button-icon {
-fill: #fff;
 
-}
 
 .modal-user-name{
    position: relative;
