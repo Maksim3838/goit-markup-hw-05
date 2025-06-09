@@ -781,6 +781,7 @@ fill: #2e2f42;
 .modal-check:checked + label .check-element {
   background-color: var(--accent-color);
   border: none;
+   fill:#F4F4FD;
 }
 
 .modal-check:checked + label .check-element svg {
