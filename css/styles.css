@@ -668,10 +668,10 @@ fill: #fff;
 .modal-input:focus {
  border-color: #4D5AE5;
 }
-.modal-input:focus + .modal-svg-van {
+.model-input:focus + .modal-svg-van {
   fill: #4d5ae5;
 }
-.modal-input:focus{
+.model-input:focus{
   fill: #4d5ae5;
 }
 
